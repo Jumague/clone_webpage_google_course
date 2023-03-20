@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #ffffff;
+}
+header {
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    padding: 0.4rem 0.8rem;
+}
+.menu-header .menu-button {
+    display: inline-block;
+    list-style: none;
+    margin-left: 0.4rem;
+}
+.menu-header .menu-button a {
+    text-decoration: none;
+    color: #5F6A6A ;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif
+}
+.menu-header .menu-button a:hover{
+    color: blue;
+}
+.menu-header .menu-button a img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    background-color: #F2F4F4;
+}
+main {
+    width: 100vw;
+    height: 86vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+main figure {
+    width: 75vw;
+}
+main section button:hover{
+    color: blue;
+}
+footer {
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+.menu-footer .menu-button {
+    display: inline-block;
+    list-style: none;
+    margin-left: 0.4rem;
+}
+.menu-footer .menu-button a {
+    text-decoration: none;
+    display: inline-block;
+    height: 2.4rem;
+    padding-top: 0.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    color: #5F6A6A;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E5E8E8;
+    border: 0.1rem solid #5F6A6A;
+    border-radius: 2rem;
+}
+.menu-footer .menu-button a:hover{
+    color: blue;
+    background-color: rgb(230, 139, 139);
+}
